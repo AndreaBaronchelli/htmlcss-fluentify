@@ -121,3 +121,25 @@ h4 {
     font-size: 60px;
     margin-bottom: 25px;
 }
+
+/* SLOGAN */
+.slogan {
+    height: 150px;
+    background: #d3d3d3;
+    color: #888888;
+    text-align: center;
+}
+
+.slogan .slogan-text {
+    padding: 40px;
+}
+
+.slogan h2 {
+    color: black;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.slogan p {
+    font-size: 20px;
+}
