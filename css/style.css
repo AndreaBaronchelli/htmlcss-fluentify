@@ -29,19 +29,29 @@ h4 {
     float: left;
 }
 
+.w-50 {
+    width: 50%;
+}
+
+/* Buttons */
 .btn {
     display: inline-block;
     min-width: 100px;
     padding: 10px;
     border: 1px solid white;
-    border-radius: 10px;
+    border-radius: 5px;
     line-height: 1;
     text-align: center;
+    text-transform: uppercase;
 }
 
 .btn.btn-green {
     background-color: #7CBB0F;
     border: 1px solid transparent;
+}
+
+.btn.btn-big {
+    padding: 25px;
 }
 
 /* MAIN HEADER */
@@ -84,3 +94,30 @@ h4 {
     text-align: right;
 }
 
+/* JUMBOTRON */
+.jumbotron {
+    height: 600px;
+    background: #0e325a;
+    background-image: url(../img/background-header.png);
+    background-size: 1200px;
+    background-repeat: no-repeat;
+    background-position: 110% 110%;
+    color: white;
+}
+
+.jumbotron .container {
+    position: relative;
+    height: 100%;
+}
+
+.jumbotron .jumbotron-content {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+.jumbotron h1 {
+    font-size: 60px;
+    margin-bottom: 25px;
+}
