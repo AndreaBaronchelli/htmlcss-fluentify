@@ -291,12 +291,6 @@ footer select {
     cursor: context-menu;
 }
 
-footer .selection,
-.selection i {
-    font-size: 25px;
-    text-decoration: underline;
-}
-
 .btn.btn-green.fixed {
     bottom: -1%;
     right: 15%;
