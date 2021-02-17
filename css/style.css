@@ -252,7 +252,13 @@ footer {
 }
 
 footer .col {
+    position: relative;
     line-height: 200px;
+}
+
+footer .col .text {
+    position: absolute;
+    right: 0;
 }
 
 footer h2 {
@@ -283,7 +289,7 @@ footer .selection,
 
 .btn.btn-green.fixed {
     bottom: -1%;
-    right: 25%;
+    right: 15%;
     min-width: 0;
     padding: 20px 5px 20px;
     font-size: 20px;
