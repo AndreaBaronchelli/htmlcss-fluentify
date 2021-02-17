@@ -63,7 +63,7 @@ hr {
     background: #0e325a;
     text-transform: uppercase;
     line-height: 100px;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .main-header .logo {
@@ -126,6 +126,12 @@ hr {
     margin-bottom: 25px;
 }
 
+.jumbotron a {
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+
 .jumbotron a:hover {
     color: dodgerblue;
 }
@@ -155,6 +161,7 @@ hr {
 /* MAIN CONTENT */
 .main-content {
     height: 600px;
+    margin-top: 50px;
 }
 
 .main-content .container {
@@ -174,7 +181,6 @@ hr {
 .main-content .col img {
     display: block;
     margin: 0 auto;
-    margin-top: 50px;
     height: 200px;
 }
 
@@ -196,4 +202,36 @@ hr {
     color: #888888;
     text-align: center;
     line-height: 1.5;
+}
+
+/* MAIN BOTTOM */
+.main-bottom {
+    height: 600px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.main-bottom .text {
+    padding-left: 100px;
+}
+
+.main-bottom h2 {
+    font-size: 40px;
+}
+
+.main-bottom p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #888888;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.main-bottom a {
+    font-size: 18px;
+    color: dodgerblue;
+}
+
+.main-bottom a:hover {
+    color: blue;
 }
