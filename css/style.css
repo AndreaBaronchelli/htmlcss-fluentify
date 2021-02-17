@@ -1,0 +1,47 @@
+/* GENERAL */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* UTILITIES */
+.container {
+    width: 2000px;
+    margin: 0 auto;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.float-left {
+    float: left;
+}
+
+/* MAIN HEADER */
+.main-header {
+    background: #0e325a;
+    text-transform: uppercase;
+    line-height: 100px;
+}
+
+.main-header .logo {
+    width: 15%;
+}
+
+.main-header .col-center {
+    width: 45%;
+}
+
+.main-header .col-right {
+    width: 40%;
+    text-align: right;
+}
+
+.main-header .logo img {
+    vertical-align: middle;
+}
