@@ -14,7 +14,7 @@ h4 {
 }
 
 hr {
-    color: #888888;
+    color: #d3d3d3;
 }
 
 /* UTILITIES */
@@ -35,6 +35,10 @@ hr {
 
 .w-50 {
     width: 50%;
+}
+
+.fixed {
+    position: fixed;
 }
 
 /* Buttons */
@@ -211,7 +215,12 @@ hr {
     margin-bottom: 50px;
 }
 
+.main-bottom .image img{
+    height: 600px;
+}
+
 .main-bottom .text {
+    height: 100%;
     padding-left: 100px;
 }
 
@@ -234,4 +243,48 @@ hr {
 
 .main-bottom a:hover {
     color: blue;
+}
+
+/* FOOTER */
+footer {
+    height: 200px;
+    background: #d3d3d3;
+}
+
+footer .col {
+    line-height: 200px;
+}
+
+footer h2 {
+    font-size: 30px;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover {
+    color: dodgerblue;
+}
+
+footer .col:last-child div {
+    display: inline-block;
+    margin-right: 20px;
+    color: #888888;
+    font-size: 18px;
+}
+
+footer .selection,
+.selection i {
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+.btn.btn-green.fixed {
+    bottom: -1%;
+    right: 25%;
+    min-width: 0;
+    padding: 20px 5px 20px;
+    font-size: 20px;
 }
