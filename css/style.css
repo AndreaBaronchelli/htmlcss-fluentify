@@ -13,6 +13,10 @@ h4 {
     font-weight: 500;
 }
 
+hr {
+    color: #888888;
+}
+
 /* UTILITIES */
 .container {
     width: 1500px;
@@ -122,6 +126,10 @@ h4 {
     margin-bottom: 25px;
 }
 
+.jumbotron a:hover {
+    color: dodgerblue;
+}
+
 /* SLOGAN */
 .slogan {
     height: 150px;
@@ -142,4 +150,50 @@ h4 {
 
 .slogan p {
     font-size: 20px;
+}
+
+/* MAIN CONTENT */
+.main-content {
+    height: 600px;
+}
+
+.main-content .container {
+    height: 100%;
+}
+
+.main-content .col {
+    width: 30%;
+    margin-right: 5%;
+    height: 100%;
+}
+
+.main-content .col:last-child {
+    margin-right: 0;
+}
+
+.main-content .col img {
+    display: block;
+    margin: 0 auto;
+    margin-top: 50px;
+    height: 200px;
+}
+
+.main-content h2 {
+    margin-top: 20px;
+    color: #7CBB0F;
+    text-align: center;
+    font-size: 30px;
+}
+
+.main-content .col hr {
+    display: block;
+    width: 100px;
+    margin: 30px auto;
+}
+
+.main-content .col p {
+    font-size: 20px;
+    color: #888888;
+    text-align: center;
+    line-height: 1.5;
 }
