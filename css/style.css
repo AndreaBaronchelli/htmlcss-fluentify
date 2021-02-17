@@ -230,7 +230,7 @@ hr {
 
 .main-bottom p {
     margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     color: #888888;
     font-size: 20px;
     line-height: 1.5;
@@ -279,6 +279,16 @@ footer .col:last-child div {
     margin-right: 20px;
     color: #888888;
     font-size: 18px;
+}
+
+footer select {
+    margin-right: 20px;
+    background-color: transparent;
+    border: 0;
+    border-bottom: 1px solid #888888;
+    color: #888888;
+    font-size: 22px;
+    cursor: context-menu;
 }
 
 footer .selection,
