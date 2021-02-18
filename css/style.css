@@ -295,6 +295,57 @@ hr {
     cursor: context-menu;
 }
 
+/* DISCOVER */
+.discover {
+    height: 600px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.discover .image img{
+   margin-top: 100px;
+}
+
+.discover .text {
+    padding-left: 150px;
+}
+
+.discover h2 {
+    margin-top: 100px;
+    margin-bottom: 40px;
+    font-size: 30px;
+}
+
+.discover p {
+    margin-bottom: 30px;
+    max-width: 450px;
+    line-height: 1.5;
+    font-size: 18px;
+    color: #888888;
+}
+
+.discover .btn {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 200px;
+    color: white;
+    font-size: 12px;
+    text-align: left;
+    font-weight: bold;
+}
+
+.discover .btn:hover {
+    color: dodgerblue;
+}
+
+.discover .text .description {
+    padding-left: 10px;
+    color: dodgerblue;
+    line-height: 1.5;
+    text-align: center;
+    font-size: 18px;
+}
+
 /* HELPER */
 .btn.btn-green.fixed {
     bottom: 0;
@@ -309,5 +360,6 @@ hr {
 
 .btn.btn-green.fixed:hover {
     z-index: 2;
+    color: dodgerblue;
     padding: 20px 20px 50px;
 }
