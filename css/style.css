@@ -425,6 +425,83 @@ hr {
     color: dodgerblue;
 }
 
+/* CREATE A PLAN */
+.plan {
+    height: 600px;
+}
+
+.plan .container {
+    width: 1000px;
+}
+
+.plan h2 {
+    margin-top: 150px;
+    text-align: center;
+}
+
+.plan .tab {
+    margin-top: 100px;
+}
+
+.plan .col {
+    width: 30%;
+    margin-right: 5%;
+}
+
+.plan .col:last-child {
+    margin-right: 0;
+}
+
+.plan .col img {
+    height: 50px;
+}
+
+.plan .col h3 {
+    margin: 20px auto;
+    font-size: 20px;
+}
+
+.plan .col p {
+    height: 20%;
+    max-width: 70%;
+    margin-bottom: 30px;
+    line-height: 1.5;
+    color: #888888;
+}
+
+.plan .col hr {
+    margin-bottom: 30px;
+    height: 6px;
+    border: transparent;
+}
+
+.plan .col.left hr{
+    background-color: dodgerblue;
+}
+.plan .col.left a {
+    color: dodgerblue;
+}
+
+.plan .col.center hr{
+    background-color: orange;
+}
+.plan .col.center a {
+    color: orange;
+}
+
+.plan .col.right hr{
+    background-color: #7CBB0F;
+}
+.plan .col.right a {
+    color: #7CBB0F;
+}
+
+.plan .col a:hover {
+    color: blue;
+}
+
+
+
 /* HELPER */
 .btn.btn-green.fixed {
     bottom: 0;
