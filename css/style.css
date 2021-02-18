@@ -527,6 +527,48 @@ hr {
     font-size: 20px;
 }
 
+/* FOOTER */
+footer {
+    height: 500px;
+    background: #19416a;
+}
+
+footer .container {
+    height: 100%;
+}
+
+footer .container .col {
+    margin-top: 80px;
+}
+
+footer .col a {
+    display: block;
+    line-height: 50px;
+}
+
+footer .col p {
+    line-height: 1.5;
+}
+
+footer .col.right {
+    text-align: right;
+}
+
+footer .col.right .main {
+    margin-bottom: 50px;
+}
+
+footer .col .main {
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+}
+
+footer .col .secondary {
+    font-size: 20px;
+    color: #888888;
+    text-decoration: none;
+}
 
 /* HELPER */
 .btn.btn-green.fixed {
