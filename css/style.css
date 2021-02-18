@@ -295,10 +295,11 @@ footer select {
 }
 
 .btn.btn-green.fixed {
-    bottom: -1%;
+    bottom: 0;
     right: 15%;
     min-width: 0;
     padding: 20px 5px 20px;
+    border-radius: 5px 5px 0 0;
     font-size: 20px;
     transition: padding 0.3s;
 }
