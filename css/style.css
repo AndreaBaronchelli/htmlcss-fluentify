@@ -51,6 +51,7 @@ hr {
     line-height: 1;
     text-align: center;
     text-transform: uppercase;
+    text-decoration: none;
 }
 
 .btn.btn-green {
@@ -248,43 +249,43 @@ hr {
     color: blue;
 }
 
-/* FOOTER */
-footer {
+/* SELECTION */
+.selection {
     height: 200px;
     background: #d3d3d3;
 }
 
-footer .col {
+.selection .col {
     position: relative;
     line-height: 200px;
 }
 
-footer .col .text {
+.selection .col .text {
     position: absolute;
     right: 0;
 }
 
-footer h2 {
+.selection h2 {
     font-size: 30px;
 }
 
-footer a {
+.selection a {
     text-decoration: none;
     color: white;
 }
 
-footer a:hover {
+.selection a:hover {
     color: dodgerblue;
 }
 
-footer .col:last-child div {
+.selection .col:last-child div {
     display: inline-block;
     margin-right: 20px;
     color: #888888;
     font-size: 18px;
 }
 
-footer select {
+.selection select {
     margin-right: 20px;
     background-color: transparent;
     border: 0;
@@ -294,6 +295,7 @@ footer select {
     cursor: context-menu;
 }
 
+/* HELPER */
 .btn.btn-green.fixed {
     bottom: 0;
     right: 15%;
@@ -301,9 +303,11 @@ footer select {
     padding: 20px 5px 20px;
     border-radius: 5px 5px 0 0;
     font-size: 20px;
+    color: white;
     transition: padding 0.3s;
 }
 
 .btn.btn-green.fixed:hover {
+    z-index: 2;
     padding: 20px 20px 50px;
 }
