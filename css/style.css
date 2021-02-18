@@ -398,6 +398,32 @@ hr {
 }
 
 /* FOR BUSINESS */
+.business {
+    height: 400px;
+    background: #0e325a;
+}
+
+.business h2 {
+    padding-top: 100px;
+    margin-bottom: 40px;
+    color: white;
+    font-size: 30px;
+}
+
+.business p {
+    margin-bottom: 40px;
+    color: #888888;
+    line-height: 1.5;
+    max-width: 25%;
+}
+
+.business a {
+    color: white;
+}
+
+.business a:hover {
+    color: dodgerblue;
+}
 
 /* HELPER */
 .btn.btn-green.fixed {
